@@ -13,9 +13,9 @@ from email.utils import parsedate_to_datetime
 from flask import Flask, jsonify, request
 from flask_restful import Resource, Api
 
-DOMAIN = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
-USER_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
-PASSWORD = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
+DOMAIN = 'imap.gmail.com'
+USER_ID = 'pension.guesthouse@gmail.com'
+PASSWORD = 'iassmfyurqojlfxo'
 
 APP = Flask(__name__)
 APP.config['JSON_AS_ASCII'] = False
